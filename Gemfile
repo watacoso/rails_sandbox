@@ -24,6 +24,10 @@ gem 'coffee-rails', '~> 4.2'
 #add twitter bootstrap
 gem 'bootstrap-sass' , '3.3.7'
 
+#add fontawesome sass gem
+gem 'font-awesome-sass', '4.6.2'
+gem 'font-awesome-rails'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
