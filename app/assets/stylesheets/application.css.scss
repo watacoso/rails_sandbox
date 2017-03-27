@@ -45,9 +45,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', end
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a{
     color:white;
-}
-
-.navbar-default .navbar:hover,
-.navbar-default .navbar-nav>li>a:hover{
-    color:grey;
+    &:hover{
+        color:white;
+        opacity:0.75;
+    }
 }
