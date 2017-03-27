@@ -13,14 +13,13 @@
       <nav class="navbar navbar-default">
           <div class="container-fluid">
               <div class="navbar-header">
-                  <a class="navbar-brand" href="/">
-                      <i class="fa fa fa-user-circle-o" aria-hidden="true"></i>MyB
-                  </a>
+                  <%= link_to "/", class: "navbar-brand" do %>
+                  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      MyB
+                  <% end %>
               </div>
               <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/about">About</a>
-                </li>
+                <li><%= link_to "About" , "/about"  %> </li>
               </ul>
           </div>
       </nav>
